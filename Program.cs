@@ -23,14 +23,16 @@ namespace MySkills
                 "Linux",
                 "REST",
                 "Test-driven development",
-                "Integrationstestning",
+                "Integration testing",
                 "Scrum",
                 "Continuous Integration"
             };
 
             Array.Sort(skills, (a, b) => String.Compare(a, b));
 
-            Console.WriteLine(String.Join(", ", skills));
+            string sortedSkills = String.Join(", ", skills);
+
+            Console.WriteLine(sortedSkills);
         }
     }
 }
