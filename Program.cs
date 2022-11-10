@@ -25,7 +25,8 @@ namespace MySkills
                 "Test-driven development",
                 "Integration testing",
                 "Scrum",
-                "Continuous Integration"
+                "Continuous Integration",
+                "JSON"
             };
 
             Array.Sort(skills, (a, b) => String.Compare(a, b));
